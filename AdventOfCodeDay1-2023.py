@@ -1,4 +1,4 @@
-def calibrationNums (filePath):
+def calibrationNums(filePath):
 
     try:
         puzzleInput = open(filePath)
@@ -23,7 +23,7 @@ def calibrationNums (filePath):
 
     return totalSum
 
-def calibrationNumsWithWords (filepath):
+def calibrationNumsWithWords(filepath):
 
     try:
         puzzleInput = open(filePath)
