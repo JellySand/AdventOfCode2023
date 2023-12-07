@@ -66,6 +66,7 @@ def calibrationNumsWithWords(filepath):
     return totalSum
 
 def updateDigits(leftmostDigit, rightmostDigit, currentDigit):
+
     if leftmostDigit == -1:
         rightmostDigit = currentDigit
         leftmostDigit = currentDigit
